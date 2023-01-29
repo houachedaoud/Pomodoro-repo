@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pomodoro.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    
+    <div id="form-container">
+        <form id="floating-form">
+            <div class="title">Set Timer</div>
+            <div class="input-container ic1">
+              <input id="work-time" class="input" type="number" placeholder=" " required/>
+              <div class="cut"></div>
+              <label for="work-time" class="placeholder">Work Time</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="fun-time" class="input" type="number" placeholder=" " required/>
+              <div class="cut"></div>
+              <label for="fun-time" class="placeholder">Fun Time</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="rounds-number" class="input" type="number" placeholder=" " required/>
+              <div class="cut cut-short"></div>
+              <label for="rounds-number" class="placeholder">Rounds</label>
+            </div>
+            <button class="submit">submit</button>
+        </form>
+        <button class="defaultButton" onclick='defaultPomodoro()'>Default</button>
+    </div>
+
+
+    <div class="all">
+        <h1 id="statu">Work Time</h1>
+        <div class="timer">
+            <h1><span id="minutes">00</span>:<span id="seconds">00</span></h1>
+        </div>
+
+        <div class="buttons">
+        <button class="button-31" value="Start" onclick="startt()" id="btn" value="start">Start</button>
+        <button class="button-31" value="Pause" onclick="pause()">Pause</button>
+        <button class="button-31" value="Reset" onclick="location.reload()">Reset</button>
+        </div>
+    </div>
+    <script src="pomodoro.js"></script>
+</body>
+</html>
