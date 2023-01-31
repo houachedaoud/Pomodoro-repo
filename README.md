@@ -1,4 +1,4 @@
-# Pomodoro technique General
+# Pomodoro Technique in General
 
 A Pomodoro is a time management technique that helps users improve their productivity by dividing their time into focused work intervals and short breaks.
 
