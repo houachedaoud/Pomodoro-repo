@@ -12,3 +12,8 @@ The project will ask the user for the length of the work interval and the length
 ![code](Pictures/project01.jpg)
 ![code](Pictures/project02.jpg)
 ![code](Pictures/project03.jpg)
+
+Responsie for phones also
+
+![code](Pictures/project04.jpg)
+![code](Pictures/project05.jpg)
