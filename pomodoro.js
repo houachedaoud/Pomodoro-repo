@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById("floating-form").addEventListener("submit", function(event) {
     event.preventDefault();
     document.getElementById("form-container").style.display = "none";
+    document.getElementById("all").style.display = "block";
 
     workTime = document.getElementById("work-time").value;
     document.getElementById('minutes').textContent= workTime;
@@ -29,6 +30,7 @@ document.getElementById("floating-form").addEventListener("submit", function(eve
 
 function defaultPomodoro(){
     document.getElementById("form-container").style.display = "none";
+    document.getElementById("all").style.display = "block";
     document.getElementById('minutes').textContent= minutes;
 }
 
